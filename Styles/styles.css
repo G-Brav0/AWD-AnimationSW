@@ -4,6 +4,7 @@
 }
 
 body{
+    color: rgb(2, 170, 114);
     align-items: center;
     background-color: rgb(20, 20, 20) ;
     display: flex;
@@ -12,7 +13,26 @@ body{
     margin: 0px;
     overflow: hidden;
     padding: 0px;
+}
 
+h1 {
+    padding-right: 65px;
+    animation: glowing 2s infinite;
+}
+
+@keyframes glowing {
+    0% {
+        color: rgb(2, 170, 114);
+        text-shadow: 0 0 5px rgb(2, 170, 114);
+    }
+    50% {
+        color: rgb(255, 0, 0);
+        text-shadow: 0 0 10px rgb(255, 0, 0);
+    }
+    100% {
+        color: rgb(2, 170, 114);
+        text-shadow: 0 0 5px rgb(2, 170, 114);
+    }
 }
 
 /* to control block layout */
