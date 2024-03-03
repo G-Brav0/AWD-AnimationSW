@@ -54,7 +54,7 @@ h1 {
     position: relative;
     width: 300px;
     opacity: 0; /* starts at zero visibility */
-    transition: opacity 500ms;
+    transition: opacity 1500ms;
 }
 
 .img_reveal:hover{
